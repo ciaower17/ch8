@@ -1,0 +1,420 @@
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.bigpur {
+    width: 30%;
+    height: 80%;
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 0 0 70% 30vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.big {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    z-index: 1;
+    top: 20%;
+}
+
+.outline {
+    height: 120%;
+    width: 60%;
+    position: relative;
+    border-radius: 35px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(197, 197, 197);
+}
+
+.inline {
+    height: 96%;
+    width: 93%;
+    position: relative;
+    border-radius: 30px;
+    background-color: hsl(270, 20%, 96%);
+    top: 2%;
+    left: 3.5%;
+    z-index: 0;
+}
+
+.sh {
+    width: 50%;
+    height: 4%;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border-radius: 0 0 30px 30px;
+    left: 25%;
+}
+
+.upper {
+    height: 13%;
+    width: 100%;
+    border-radius: 30px 30px 5px 5px;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    padding: 0;
+    margin: 0;
+}
+
+.chat {
+    width: 92%;
+    height: 80%;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.chat1 {
+    width: 65%;
+    height: 10%;
+    background-color: hsl(0, 0%, 88%);
+    border-radius: 12px;
+    font-size: 0.6rem;
+    color: hsl(276, 55%, 52%);
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+.chat2 {
+    margin-top: 4%;
+    width: 65%;
+    height: 10%;
+    background-color: hsl(0, 0%, 88%);
+    border-radius: 12px;
+    font-size: 0.6rem;
+    color: hsl(276, 55%, 52%);
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+.chat3 img {
+    width: 20%;
+    height: 16%;
+    border-radius: 12px;
+    margin-top: 8%;
+}
+
+.chat3 {
+    text-align: right;
+}
+
+.chat4 {
+    margin-top: 4%;
+    width: 60%;
+    height: 8%;
+    padding-top: 4px;
+    padding-left: 6px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 0.6rem;
+    color: hsl(271, 15%, 43%);
+    position: absolute;
+    right: 0px;
+    margin-right: 4%;
+}
+
+.i {
+    width: 100%;
+    height: 13%;
+}
+
+.chat5 {
+    margin-top: 3%;
+    width: 38%;
+    height: 4.5%;
+    padding-top: 4px;
+    padding-left: 8px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    color: hsl(271, 15%, 43%);
+    position: absolute;
+    right: 0px;
+    margin-right: 4%;
+}
+
+.f {
+    width: 100%;
+    height: 11%;
+}
+
+.chat6 {
+    margin-top: 0%;
+    width: 70%;
+    height: 13%;
+    background-color: hsl(0, 0%, 88%);
+    border-radius: 12px;
+    font-size: 0.6rem;
+    color: hsl(276, 55%, 52%);
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+.chat7 {
+    margin-top: 3%;
+    width: 80%;
+    height: 9%;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 12px 12px 12px 5px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.chat8 {
+    margin-top: 3%;
+    width: 80%;
+    height: 9%;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 12px 12px 12px 5px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.first {
+    font-size: 0.6rem;
+    display: inline-block;
+    padding-left: 7%;
+    color: hsl(280, 4%, 84%);
+}
+
+.second {
+    display: inline-block;
+    font-size: 1rem;
+    padding-left: 20%;
+    padding-top: 4%;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+.second1 {
+    display: inline-block;
+    font-size: 1rem;
+    padding-left: 28%;
+    padding-top: 4%;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+.fa-circle {
+    padding-left: 5%;
+    padding-top: 3%;
+    color: hsl(280, 4%, 84%);
+}
+
+.button {
+    margin-top: 4%;
+    width: 92%;
+    height: 6%;
+    padding-left: 8px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 0.6rem;
+    color: hsl(271, 15%, 43%);
+    position: absolute;
+    margin-right: 4%;
+}
+
+.send {
+    position: absolute;
+    right: 2%;
+    top: 9%;
+    width: 12%;
+    height: 85%;
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.ma {
+    position: relative;
+    top: 7%;
+    left: 2%;
+}
+
+.type {
+    position: relative;
+    top: 25%;
+    left: 5%;
+    color: hsl(270, 2%, 80%);
+    border-width: 0px;
+}
+
+.samuel {
+    width: 10%;
+    height: 65%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 5%;
+    position: relative;
+    bottom: 2px;
+}
+
+.green {
+    font-size: 0.7rem;
+    color: white;
+    margin-bottom: 2px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.ava {
+    font-size: 0.5rem;
+    color: rgb(201, 199, 199);
+    font-family: 'Rubik', sans-serif;
+}
+
+.ups {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+    padding-left: 7%;
+}
+
+.te {
+    display: inline-block;
+    position: relative;
+    bottom: 20%;
+    padding-left: 4%;
+}
+
+h1 {
+    margin-top: 45%;
+    color: hsl(271, 36%, 24%);
+    font-family: 'Rubik', sans-serif;
+}
+
+.par {
+    padding-top: 4%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    color: hsl(270, 7%, 64%);
+}
+
+@media (max-width: 1780px) {
+    .big {
+        margin: auto;
+        width: 55%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        top: 20%;
+    }
+}
+
+@media (max-width: 1620px) {
+    .big {
+        margin: auto;
+        width: 60%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        top: 20%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .big {
+        margin: auto;
+        width: 65%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        top: 20%;
+    }
+}
+
+@media (max-width: 1375px) {
+    .big {
+        margin: auto;
+        width: 70%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        top: 20%;
+    }
+}
+
+@media (max-width: 1270px) {
+    .big {
+        margin: auto;
+        width: 75%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        top: 20%;
+    }
+}
+
+@media (max-width: 1190px) {
+    .big {
+        margin: auto;
+        width: 80%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        top: 20%;
+    }
+}
+
+@media (max-width: 1110px) {
+    .big {
+        margin: auto;
+        width: 85%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        top: 20%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .big {
+        margin: auto;
+        max-width: 100%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        top: 20%;
+        display: block;
+        margin: auto;
+    }
+    .outline {
+        height: 550px;
+        width: 250px;
+        position: relative;
+        border-radius: 35px;
+        background-color: white;
+        box-shadow: 5px 5px 10px rgb(197, 197, 197);
+        margin: auto;
+    }
+    .bigpur {
+        width: 60%;
+        height: 80%;
+        background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        border-radius: 0 0 70% 30vh;
+        position: absolute;
+        z-index: -1;
+    }
+    .prr {
+        text-align: center;
+    }
+    h1 {
+        margin-top: 20%;
+        color: hsl(271, 36%, 24%);
+        font-family: 'Rubik', sans-serif;
+    }
+    .par {
+        padding-top: 4%;
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.1rem;
+        color: hsl(270, 7%, 64%);
+    }
+}
