@@ -37,9 +37,6 @@ body {
     border-radius: 35px;
     background-color: white;
     box-shadow: 5px 5px 10px rgb(197, 197, 197);
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 .inline {
@@ -88,6 +85,9 @@ body {
     color: hsl(276, 55%, 52%);
     padding-top: 4px;
     padding-left: 6px;
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .chat2 {
@@ -100,6 +100,9 @@ body {
     color: hsl(276, 55%, 52%);
     padding-top: 4px;
     padding-left: 6px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .chat3 img {
@@ -111,6 +114,9 @@ body {
 
 .chat3 {
     text-align: right;
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .chat4 {
@@ -126,6 +132,9 @@ body {
     position: absolute;
     right: 0px;
     margin-right: 4%;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .i {
@@ -146,6 +155,9 @@ body {
     position: absolute;
     right: 0px;
     margin-right: 4%;
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .f {
@@ -163,6 +175,9 @@ body {
     color: hsl(276, 55%, 52%);
     padding-top: 4px;
     padding-left: 6px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .chat7 {
@@ -173,6 +188,9 @@ body {
     border-radius: 12px 12px 12px 5px;
     color: white;
     font-size: 0.8rem;
+    animation: fadeInAnimation ease 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .chat8 {
@@ -183,6 +201,9 @@ body {
     border-radius: 12px 12px 12px 5px;
     color: white;
     font-size: 0.8rem;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .first {
